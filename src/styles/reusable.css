@@ -1,0 +1,17 @@
+/* reusable.css for reusable/global Tailwind styling */
+
+.input-style {
+  @apply w-full px-5 rounded border border-light-1 h-14 outline-none
+}
+
+.btn-role {
+  @apply w-fit justify-center py-4 px-6 rounded-lg border-2 hover:border-main-darker
+}
+
+/* button styles */
+.btn-primary {
+  @apply py-1 px-3 w-fit text-main-darker rounded border border-main-darker
+}
+.btn-secondary {
+  @apply py-1 px-2 text-main-primary rounded border border-main-primary
+}
